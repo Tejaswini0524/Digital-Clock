@@ -1,0 +1,22 @@
+body{
+    background-image: url(digitalClock_bg\ -\ Copy.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#clock{
+    font-family: monospace;
+    font-size: 6.5rem;
+    text-align: center;
+    color:rgb(45, 44, 38);
+    backdrop-filter: blur(1px);
+    background-color: rgba(173, 173, 193,);
+}
